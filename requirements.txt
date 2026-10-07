@@ -1,0 +1,6 @@
+pillow>=10
+numpy>=1.26
+scipy>=1.11
+paramiko>=3.4
+# нужны только для подготовки фото (catalog.py / house_matte.py):
+rembg[cpu]>=2.0.60

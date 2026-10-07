@@ -1,0 +1,17 @@
+# Секреты: никогда не коммитить
+config.php
+*.env
+.env*
+site/config.php
+
+# Сборочные артефакты и временное
+dist/
+preview/
+compare.html
+__pycache__/
+*.pyc
+.claude/
+
+# Исходные фото производителей и промежуточные результаты вырезания (скачиваются заново, см. docs/SOURCES.md)
+assets/
+photos/
